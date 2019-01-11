@@ -1,0 +1,499 @@
+/*
+File : homepage.css;
+Date created: July 4 2018;
+Date modified: July 4 2018;
+*/
+
+html{
+	
+}
+
+body{
+  
+   font-family:lato,Verdana, Geneva, Arial, sans-serif;
+   background-color: #F4F4F4;
+
+}
+
+.container {
+  
+   margin:auto;
+   width: 960px;
+   height: 1700px;
+   
+   
+}
+
+.header{
+   position: absolute;
+   width: 960px;
+   height: 90px;
+   border: 1px solid;
+   background-color:  #000000;
+
+}
+
+.logo{
+   position: absolute;
+   left: 12px;
+   width: 155px;
+   height: 90px;  
+
+}
+
+.logo img{
+   width: 150px;
+   height: 90px;
+   padding-top: 8px;
+   padding-left:4px;
+
+}
+
+.nav {
+   position: absolute;
+   left: 150px;
+   width: 420px;
+   height: 50px;
+   margin-top: 22px;
+   
+}
+
+.nav ul{
+    list-style-type: none;
+    text-align: left;
+    margin-top: 10px;  
+}
+
+
+.nav li {
+   display: inline-block;
+   padding:5px;
+   margin-right: 20px;
+   
+  
+}
+
+.nav a{
+   text-decoration: none;
+   color: #ffffff;
+}
+
+.login{
+   position: absolute;
+   left: 780px;
+   top:34px;
+   width: 70px;
+   height: 25px;
+   
+   text-align: center;
+   padding-top: 4px;
+}
+
+.login a {
+   text-decoration: none;
+   color: #ffffff;
+}
+
+.signup{
+   position: absolute;
+   left: 870px;
+   top:34px;
+   width: 70px;
+   height: 25px;
+   
+   text-align: center;
+   padding-top: 4px;  
+}
+
+.signup a{
+   text-decoration: none;
+   color: #ffffff;
+}
+
+
+
+.username{
+   position: absolute;
+   left: 770px;
+   top:34px;
+   width:100px;
+   height: 25px;
+   text-align: center;
+
+   color: #ffffff;
+   font-size:20px;
+}
+.logout{
+
+   position: absolute;
+   left: 870px;
+   top:34px;
+   width: 70px;
+   height: 25px;
+   text-align: center;
+
+
+}
+
+.logout input{
+ background-color:#000000;
+ color:#ffffff;
+ font-size:16px;
+ border-style:none;
+}
+
+.searchbox{
+   position: absolute;
+   left: 545px;
+   top:35px;
+   width: 185px;
+   height: 20px;
+   display: none;
+
+}
+
+.searchbox input{
+    width: 185px;
+    height: 20px;
+
+}
+
+.searchicon{
+   position: absolute;
+   left: 750px;
+   top:38px;
+   width: 20px;
+   height: 20px;
+
+
+}
+
+.searchicon input{
+  width: 20px;
+  height: 20px;
+  background:url('./image/search.png');
+  background-repeat: no-repeat;
+  background-size: 20px;
+  cursor:pointer;
+  border: none;
+}
+
+
+.categories{
+  position: absolute;
+  top:115px;
+  min-height: 500px;
+  min-width:960px;
+  
+}
+
+
+.tvshows{
+
+  position: absolute;
+  
+  top: 50px;
+  width: 960px;
+  height: 220px;
+ 
+}
+ .thriller{
+  position: absolute;
+  
+  top: 260px;
+  width: 960px;
+  height: 220px;
+  
+
+ }
+
+ .romance{
+  position: absolute;
+  
+  top: 480px;
+  width: 960px;
+  height: 220px;
+ 
+
+ }
+
+ .sifi{
+
+  position: absolute;
+  
+  top: 700px;
+  width: 960px;
+  height: 220px;
+ 
+
+ }
+
+ .history{
+
+  position: absolute;
+  
+  top: 900px;
+  width: 960px;
+  height: 220px;
+  
+
+ }
+
+ .action{
+
+  position: absolute;
+  
+  top: 1120px;
+  width: 960px;
+  height: 220px;
+ 
+
+ }
+
+ .anime{
+
+  position: absolute;
+  
+  top: 1340px;
+  width: 960px;
+  height: 220px;
+  
+
+ }
+
+.tvshows img:hover{
+  opacity: 0.7;
+}
+
+
+.thriller img:hover{
+  opacity: 0.7;
+
+}
+
+.romance img:hover{
+  opacity: 0.7;
+
+}
+
+.sifi img:hover{
+  opacity: 0.7;
+
+}
+
+.his img:hover{opacity: 0.7;}
+.act img:hover{opacity: 0.7;}
+.an img:hover{opacity: 0.7;}
+
+
+
+
+.footer{
+  position: absolute;
+  top: 1700px;
+  clear:both;
+  background-color:  #091c24;
+  width:960px;
+  margin-bottom:10px; 
+  border-top: 1px double;
+  border-bottom: 1px solid;
+  color: #333;
+  font-family: lato, Arial,sans-serif;
+  overflow: hidden;
+}
+
+
+
+.contact{
+  float: right;
+  color: white;
+  margin: 1px;
+  padding: 1em;
+
+}
+
+.contact a{
+  text-decoration: none;
+  color:white;
+}
+
+
+ .copyright{
+  float: left;
+  color: white;
+  width: 400px;
+  margin: 1px;
+  padding: 1em;
+ }
+
+
+
+
+
+
+#prev1, #next1,#prev2,#next2,#prev3,#next3,#prev4,#next4,#prev5,#next5,#prev6,#next6,#prev7,#next7{
+  cursor: pointer;
+  position: absolute;
+  top:10px;
+  width: 30px;
+  height: 90px;
+  padding-top: 50px;
+  padding-left: 20px; 
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  color:white;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: block;
+ 
+}
+
+
+#next1 {
+  position: absolute;
+  top:111px;
+  left:910px;
+}
+
+#prev1{
+  position: absolute;
+
+  top:111px;
+}
+
+#next2 {
+  position: absolute;
+  left:910px;
+  top:322px;
+}
+
+#prev2{
+  position: absolute;
+
+  top:322px;
+}
+
+#prev3{
+  position: absolute;
+
+  top:543px;
+
+}
+
+#next3{
+  position: absolute;
+
+  left:910px;
+  top:543px;
+
+}
+
+#prev4{
+  position: absolute;
+
+  top:762px;
+
+}
+
+#next4{
+  position: absolute;
+
+  left:910px;
+  top:762px;
+
+}
+
+#prev5{
+  position: absolute;
+
+  top:962px;
+
+}
+
+#next5{
+  position: absolute;
+
+  left:910px;
+  top:962px;
+
+}
+
+#prev6{
+  position: absolute;
+
+  top:1182px;
+
+}
+
+#next6{
+  position: absolute;
+
+  left:910px;
+  top:1182px;
+
+}
+
+#prev7{
+  position: absolute;
+
+  top:1402px;
+
+}
+
+#next7{
+  position: absolute;
+
+  left:910px;
+  top:1402px;
+
+}
+
+
+
+.tile1,.tile2,.tile3,.tile4,.tile5,.tile6,.tile7{
+  width: 240px;
+  height: 140px; 
+  box-sizing: border-box;
+  transition: 1s transform;
+  float: left;
+
+}
+
+.shiftLeft { 
+  transform: translate3d(-30px, 0, 0);
+}
+
+.shiftRight { 
+  transform: translate3d(30px, 0, 0);
+}
+
+.bigger{
+  transform: scale(1.2);
+}
+.disappear {
+  display: none;
+
+}
+
+.tv{
+  display: none;
+}
+
+.th{
+  display: none;
+}
+
+.ro,.si,.his,.act,.an{
+  display: none;
+}
+
+
+.catg{
+ width: 240px;
+  height: 140px; 
+  box-sizing: border-box;
+  transition: 1s transform;
+  float: left;
+
+}
